@@ -1,7 +1,7 @@
 {
   "name": "єℓιтє υѕєявσт",
-  "description": "The best and most awaited userbot made by @Karam_0912 and @ELITE_OWNER. Made with ❤ For Support Join @blackghouls_supportgroup ",
-  "logo": "https://telegra.ph/file/a255957ef156701eb5d42.jpg",
+  "description": "The best and most awaited userbot made by @Karam_0912 and @ELITE_OWNER. Made with ❤ For Support Join @ELITES_USERBOT ",
+  "logo": "https://telegra.ph/file/f6e8aa17b164d22f30f5a.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/kuldeepsinghzala880/BLACK-GHOULS",
-  "website": "https://github.com/kuldeepsinghzala880/BLACK-GHOULS",
-  "success_url": "https://t.me/blackghouls_channel",
+  "repository": "https://github.com/ELITE-USERBOT-MAX/ELITE-USERBOT-MAX",
+  "website": "https://github.com/ELITE-USERBOT-MAX/ELITE-USERBOT-MAX",
+  "success_url": "https://t.me/ELITES_USERBOT",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -24,48 +24,48 @@
     },
     "F_BAN_LOGGER_GROUP": {
       "description": "Put Group id Same As PRIVATE_GROUP_ID.",
-      "value": "-1001318682257",
+      "value": "-1001454730603",
       "required": false
     },
 
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @Karam_0912.",
-      "value": "@blackghouls_supportgroup",
+      "value": "@ELITES_USERBOT",
       "required": true
     },
     "AUTONAME": {
       "description": "Fill your Name which will show on .autoname cmd nd used in .revert cmd when u use .clone.",
-      "value": "ᴛᴇᴀᴍ━࿇Bʟᴀᴄᴋ━࿇ɢʜᴏᴜʟs━",
+      "value": "єℓιтє υѕєявσт",
       "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
-      "value": "Bʟᴀᴄᴋ━࿇ɢʜᴏᴜʟs━๖ۣۜAℝᴍy",
+      "value": "єℓιтє υѕєявσт",
       "required": true
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/a255957ef156701eb5d42.jpg",
+      "value": "https://telegra.ph/file/f6e8aa17b164d22f30f5a.jpg",
       "required": true
     },
     "DEFAULT_BIO": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "ᴛᴇᴀᴍ━࿇Bʟᴀᴄᴋ━࿇ɢʜᴏᴜʟs━ clan member",
+      "value": "єℓιтє υѕєявσт clan member",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/a255957ef156701eb5d42.jpg",
+      "value": "https://telegra.ph/file/f6e8aa17b164d22f30f5a.jpg",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "-1001318682257",
+      "value": "-1001454730603",
       "required": false
     },
     "CUSTOM_PMPERMIT": {
       "description": "Custom middle pm permit text... May skip..doesn't really matter...",
-      "value": "https://telegra.ph/file/08bfb808108c79c4759db.png",
+      "value": "https://telegra.ph/file/f6e8aa17b164d22f30f5a.jpg",
       "required": false
     },
     "PM_DATA": {
@@ -93,19 +93,19 @@
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-1001200704082"
+      "value": "-1001454730603"
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": "-1001200704082"
+      "value": "-1001454730603"
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-1001318682257"
+      "value": "-1001454730603"
    },
     "TAG_LOG": {
       "description": "Create a group where u want ur tags logs will come add rose bot then get id ,set value, if not then leave blank  ",
-      "value": "-1001318682257",
+      "value": "-1001454730603",
       "required" : true
    },
     "OCR_SPACE_API_KEY": {
@@ -115,7 +115,7 @@
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": "-1001200704082"
+       "value": "-1001454730603"
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://repl.it/@ZALAKARAM/BLACKGHOULSARMY#main.py ",
@@ -128,7 +128,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: kuldeepsinghzala880/BLACK-GHOULS, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: ELITE-USERBOT-MAX/ELITE-USERBOT-MAX , but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
@@ -149,7 +149,7 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
-      "value": "1507368830:AAGj9wHEspLdQkCHkSBUyN16maiDraXdGCc",
+      "value": "1670050382:AAHxTMUzEZ6AILKkUn3639AbOpUkfrPrg5E",
       "required": true
     },
     "CHROME_BIN": {
@@ -164,7 +164,7 @@
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
-      "value": "@Blackghouls_bot",
+      "value": "@Elite_User_bot",
       "required": true
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
@@ -188,7 +188,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
-      "value": "😈",
+      "value": "🇮🇳",
       "required": true
     },
     "SUDO_USERS": {
@@ -196,6 +196,14 @@
       "value": "",
       "required": false
     }, 
+    "REDIS_URI": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": ""
+        },
     "TZ": {
       "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
@@ -203,7 +211,7 @@
     },
     "REDIRECTCHANNEL": {
       "description": "Put You Channel Username Reflecting Your Info or Your Tags Etc",
-      "value": "-1001200704082",
+      "value": "-1001454730603",
       "required": false 
     }
   },
