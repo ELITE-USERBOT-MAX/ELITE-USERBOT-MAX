@@ -47,7 +47,7 @@ if LOAD_USERBOT == True:
             shortname = path1.stem
             load_module(shortname.replace(".py", ""))
 else:
-    print("Userbot is Not Loading As U Have Disabled")
+    print("єℓιтє υѕєявσт is Not Loading As U Have Disabled")
 
 if LOAD_ASSISTANT == True:
     path = "userbot/plugins/assistant/*.py"
@@ -60,7 +60,7 @@ if LOAD_ASSISTANT == True:
 else:
     print("Assitant is Not Loading As U Have Disabled")
 
-print("DARK COBRA userbot AND YOUR ASSISTANT is Active Enjoy Join @DarkCobra_Support For Updates.")
+print("єℓιтє υѕєявσт AND YOUR ASSISTANT is Active Enjoy Join @ELITES_USERBOT For Updates.")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
