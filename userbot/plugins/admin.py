@@ -133,7 +133,7 @@ async def promote(promt):
     await promt.edit("`Promoting...`")
     user, rank = await get_user_from_event(promt)
     if not rank:
-        rank = "DARK COBRA"  # Just in case.
+        rank = "єℓιтє υѕєявσт"  # Just in case.
     if user:
         pass
     else:
@@ -200,7 +200,7 @@ async def demote(dmod):
     except BadRequestError:
         await dmod.edit(NO_PERM)
         return
-    await dmod.edit("`Demoted this retard Successfully!`")
+    await dmod.edit("`DEMOTE THIZ MADRCHOD !`")
 
     # Announce to the logging group if we have demoted successfully
     if BOTLOG:
@@ -293,7 +293,7 @@ async def nothanos(unbon):
     try:
         await unbon.client(
             EditBannedRequest(unbon.chat_id, user.id, UNBAN_RIGHTS))
-        await unbon.edit("```Unbanned Successfully. Granting another chance.```")
+        await unbon.edit("```Unbanned Kardiya. Ab Aasa Kiya Toh Maa Chood Dunga.```")
 
         if BOTLOG:
             await unbon.client.send_message(
@@ -693,7 +693,7 @@ async def kick(usr):
         await usr.edit("`Couldn't fetch user.`")
         return
 
-    await usr.edit("`Kicking...`")
+    await usr.edit("`Kicking Thiz Chutiya...`")
 
     try:
         await usr.client.kick_participant(usr.chat_id, user.id)
